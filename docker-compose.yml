@@ -1,0 +1,9 @@
+version: '3'
+services: 
+  poetry-demo:
+    build: .
+    tty: true
+    volumes: 
+      - ./:/app
+    # entrypoint: >
+    #   sleep 86400
